@@ -34,7 +34,7 @@ mkdir -p src/<your_repository_domain>/<your_username>/<your_repository>
 * Move to the created directory and pull codebase
 ```
 cd src/<your_repository_domain>/<your_username>/<your_repository>
-git clone -b master https://github.com/dimaskiddo/codebase-go-rest.git .
+git clone -b master https://github.com/AasSuhendar/codebase-go-rest.git .
 ```
 * Run following command to change the codebase repository URL to your own
 ```
@@ -56,7 +56,7 @@ Currently the test is not ready yet :)
 
 ## Deployment
 
-**Make sure your your go script does not relate to github.com/dimaskiddo/codebase-go-rest anymore**.
+**Make sure your your go script does not relate to github.com/AasSuhendar/codebase-go-rest anymore**.
 To build this codebase to binaries for distribution purposes you can run following command:
 ```
 make release
@@ -71,7 +71,7 @@ The build result will shown in build directory
 * [Make](https://www.gnu.org/software/make/) - GNU Make Automated Execution
 * [Docker](https://www.docker.com/) - Application Containerization
 
-## Authors
+## Forked from Upstream
 
 * **Dimas Restu Hidayanto** - *Initial Work* - [DimasKiddo](https://github.com/dimaskiddo)
 
@@ -79,4 +79,4 @@ See also the list of [contributors](https://github.com/dimaskiddo/codebase-go-re
 
 ## Annotation
 
-You can seek more information for the make command parameters in the [Makefile](https://raw.githubusercontent.com/dimaskiddo/codebase-go-rest/master/Makefile)
+You can seek more information for the make command parameters in the [Makefile](https://raw.githubusercontent.com/AasSuhendar/codebase-go-rest/master/Makefile)
